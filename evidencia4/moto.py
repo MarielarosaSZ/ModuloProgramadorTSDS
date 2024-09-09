@@ -1,5 +1,8 @@
 class Moto:
     def __init__(self):
+        self.modelo=""
+        self.color=""
+        self.cilindradas=""
         self.velocidad = 0
         self.marcha = 1  # Se asume que la marcha inicial es 1
 
